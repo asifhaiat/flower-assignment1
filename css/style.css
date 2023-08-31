@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0cfd7;
+}
+
+.text-content {
+  transform: translateX(-30%);
+}
+
+.flower-heading {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.flower-paragraph {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.button {
+  background-color: #e55473;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.banner-img {
+  transform: translateX(30%);
+}
